@@ -1,0 +1,32 @@
+<diagram program="umletino" version="15.1"><zoom_level>13</zoom_level><element><id>UMLClass</id><coordinates><x>325</x><y>31</y><w>377</w><h>325</h></coordinates><panel_attributes>Vehiculo
+--
+-combustilbe:Combustible
+-llantas:Llanta[4]
+-marca:String
+-modelo:String
+-anioFabricacion:int
+--
++&lt;&lt;Constructor&gt;&gt;Vehiculo(String,String,int)
++getCombustible():combustible
++setCombustible(Combustible):void
+...
++colocarLlantas(Llanta,Llanta,Llanta,Llanta):void
++llenarTanque():void
++avanzar():void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>143</x><y>421</y><w>195</w><h>156</h></coordinates><panel_attributes>Combustible
+--
+-litrosMaximos:short
+-litrosActuales:short
+
+--
++usar():void
+--getters y setters--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>702</x><y>421</y><w>169</w><h>156</h></coordinates><panel_attributes>Llanta
+--
+-ancho:float
+-diametro:float
+-presion:float
+-
++rodar():void
+--getters y setters--</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>416</x><y>629</y><w>208</w><h>78</h></coordinates><panel_attributes>Composicion
+--
+--
+_+main(String[]):void_</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>208</x><y>343</y><w>143</w><h>104</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;60;90;10</additional_attributes></element><element><id>Relation</id><coordinates><x>689</x><y>343</y><w>91</w><h>104</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>50;60;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>208</x><y>564</y><w>234</w><h>91</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;160;50</additional_attributes></element><element><id>Relation</id><coordinates><x>611</x><y>564</y><w>169</w><h>91</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>110;10;10;50</additional_attributes></element><element><id>Relation</id><coordinates><x>507</x><y>343</y><w>39</w><h>312</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;10;220</additional_attributes></element></diagram>

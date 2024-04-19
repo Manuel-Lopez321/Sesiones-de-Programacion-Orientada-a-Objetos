@@ -1,0 +1,35 @@
+<diagram program="umletino" version="15.1"><zoom_level>11</zoom_level><element><id>UMLClass</id><coordinates><x>143</x><y>121</y><w>198</w><h>88</h></coordinates><panel_attributes>bg=magenta
+BloquesInicializacion
+--
+--
+_+main(args:String[]):void_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>286</y><w>198</w><h>209</h></coordinates><panel_attributes>Alumno
+bg=green
+fg=black
+--
+-curso:String
+-sesion:byte
+-objetivo:String
+--
++getCurso().String
++getSesion():byte
++getObjetivo():String
+
++setCurso(String):void
++setSesion(byte):void
++setObjetivo(String):void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>33</x><y>132</y><w>132</w><h>176</h></coordinates><panel_attributes>lt=&lt;..
+usa</panel_attributes><additional_attributes>10;140;100;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>264</x><y>286</y><w>231</w><h>209</h></coordinates><panel_attributes>Alumno
+bg=orange
+fg=black
+--
+-marca:String
+-modelo:String
+-anioFabricacion:int
+-kilometraje:int
+--
++Automovil(String, String, int, int)
++hashCode():int</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>429</x><y>132</y><w>198</w><h>88</h></coordinates><panel_attributes>bg=cyan
+Fabrica
+--
+--
+_+main(args:String[]):void_</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>572</x><y>286</y><w>110</w><h>44</h></coordinates><panel_attributes>Josue Alejandro
+Esparza Padilla</panel_attributes><additional_attributes></additional_attributes></element></diagram>
